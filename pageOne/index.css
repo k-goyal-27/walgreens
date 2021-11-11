@@ -1,0 +1,96 @@
+body {
+	height: 100%;
+}
+.parent {
+	height: 31.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.child {
+	background-color: #323265;
+	width: 25rem;
+	height: 100%;
+}
+.main {
+	padding-left: 1.875rem;
+	padding-right: 1.875rem;
+	padding-top: 0.938rem;
+	padding-bottom: 0.938rem;
+}
+.headingDiv {
+	text-align: center;
+	color: white;
+}
+.heading {
+	text-align: center;
+	color: white;
+}
+.calendarDiv {
+	display: flex;
+	flex-direction: row;
+	font-size: 2.25rem;
+	color: white;
+	padding-bottom: 1.875rem;
+}
+.calendarDiv1 {
+	width: 20%;
+	text-align: left;
+	color: white;
+}
+.calendarDiv2 {
+	width: 80%;
+	text-align: left;
+}
+.calendarText {
+	color: #bebdd9;
+	font-size: 1.125rem;
+}
+.secondText {
+	color: #bebdd9;
+	font-size: 1.125rem;
+}
+
+.secondDiv {
+	display: flex;
+	flex-direction: row;
+	font-size: 2.25rem;
+	color: white;
+	padding-bottom: 1.875rem;
+}
+.secondDiv1 {
+	width: 20%;
+	text-align: left;
+	color: white;
+}
+.secondDiv2 {
+	width: 80%;
+	text-align: left;
+}
+.btnDiv {
+	display: flex;
+	flex-direction: row;
+	font-size: 2.25rem;
+	color: white;
+	padding-bottom: 1.875rem;
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 10%;
+}
+.startedBtn {
+	background: #c2e6fd;
+	border: 1px solid #c2e6fd;
+	border-radius: 1.875rem;
+	height: 2.5rem;
+	width: 11.25rem;
+	text-align: center;
+}
+.secondIcon {
+	margin-top: 25%;
+	margin-bottom: 25%;
+	color: #bebdd9;
+}
+.fa-calendar {
+	color: #bebdd9;
+}
